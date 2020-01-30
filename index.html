@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="en">
+		<head>
+			<meta charset="utf-8">
+	        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		    <title>Calculator</title>
+		    <link rel='stylesheet prefetch' href='css/bootstrap.min.css'>
+			<link rel="stylesheet" href="css/style.css">
+		</head>
+
+		<body>       
+            <form name="calc">
+                <table border="3">
+                    <tr class="result-row">
+                        <td>
+                            <input class="result-input" type="text" name="input">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="number-box" type="button" name="one" value="1" onclick="calc.input.value +='1'">
+                            <input class="number-box" type="button" name="two" value="2" onclick="calc.input.value +='2'">
+                            <input class="number-box" type="button" name="three" value="3" onclick="calc.input.value +='3'">
+                            <input class="sign-box" type="button" name="plus" value="+" onclick="calc.input.value +='+'">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="number-box" type="button" name="four" value="4" onclick="calc.input.value +='4'">
+                            <input class="number-box" type="button" name="five" value="5" onclick="calc.input.value +='5'">
+                            <input class="number-box" type="button" name="six" value="6" onclick="calc.input.value +='6'">
+                            <input class="sign-box" type="button" name="minus" value="-" onclick="calc.input.value +='-'">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="number-box" type="button" name="seven" value="7" onclick="calc.input.value +='7'">
+                            <input class="number-box" type="button" name="eight" value="8" onclick="calc.input.value +='8'">
+                            <input class="number-box" type="button" name="nine" value="9" onclick="calc.input.value +='9'">
+                            <input class="sign-box" type="button" name="multiply" value="*" onclick="calc.input.value +='*'">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="number-box" type="button" name="clear" value="C" onclick="calc.input.value =''">
+                            <input class="number-box" type="button" name="zero" value="0" onclick="calc.input.value +='0'">
+                            <input class="number-box" type="button" name="equals" value="=" onclick="calc.input.value = eval(calc.input.value)">
+                            <input class="sign-box" type="button" name="divide" value="/" onclick="calc.input.value +='/'">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </body>
+    </html>
