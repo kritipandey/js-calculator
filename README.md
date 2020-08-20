@@ -1,3 +1,1 @@
-### Demo
-
-<a href="https://codepen.io/kritipandey/full/zYrwWYr">Click here</a>
+<a href="https://codepen.io/kritipandey/full/zYrwWYr">Demo</a>
